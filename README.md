@@ -10,8 +10,8 @@
 - CRUD of games for each user
 
 ## Feature 2
-### Detecting which users are in the channel when it is called
-- detect channel being called in
+### Detecting which users are in the voice channel when it is called
+- detect voice channel being called in
 - detect users in identified channel
 
 ## Feature 3 (not completely using discord api)
@@ -19,4 +19,6 @@
 - store user games in set
 - use intercept or set operations to find common games
 - select random game from union set
-- output random game
+- output list of available games
+- recommend a random game
+- output any users missing, and show a tip for how to add games to the bot

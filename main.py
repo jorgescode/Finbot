@@ -43,6 +43,9 @@ async def on_message(message):
     if 'we have to work as a unit' in content.lower():
         await message.channel.send('suck my unit')
 
+    if 'what game should we play?' in content.lower():
+        await message.channel.send('AMONG US')
+
 
 keep_alive()
 
